@@ -1,7 +1,6 @@
 import unittest
 import math
-from app.floyd_warshall import get_shortest_distances
-from app.invalid_graph_error import InvalidGraphError
+from app.floyd_warshall import get_shortest_distances, InvalidGraphError
 
 class TestFloydWarshall(unittest.TestCase):
     def test_empty_graph(self):

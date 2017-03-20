@@ -1,2 +1,0 @@
-class InvalidGraphError(Exception):
-    pass
